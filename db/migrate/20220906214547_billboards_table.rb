@@ -1,4 +1,4 @@
-class BillboardsTable < ActiveRecord::Migration[7.0]
+class BillboardsTable < ActiveRecord::Migration[6.1]
   def change
     create_table :billboards do |t|
       t.integer :size_in_sqft

@@ -1,4 +1,4 @@
-class LocationsTable < ActiveRecord::Migration[7.0]
+class LocationsTable < ActiveRecord::Migration[6.1]
   def change
     create_table :locations do |t|
       t.string :street_name

@@ -1,4 +1,4 @@
-class ContractorsTable < ActiveRecord::Migration[7.0]
+class ContractorsTable < ActiveRecord::Migration[6.1]
   def change
     create_table :contractors do |t|
       t.string :name

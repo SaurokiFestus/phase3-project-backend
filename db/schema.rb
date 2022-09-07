@@ -10,7 +10,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_09_05_214857) do
+ActiveRecord::Schema.define(version: 2022_09_07_060803) do
+
   create_table "billboards", force: :cascade do |t|
     t.integer "size_in_sqft"
     t.integer "location_id"
