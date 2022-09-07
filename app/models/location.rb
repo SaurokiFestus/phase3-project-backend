@@ -1,3 +1,3 @@
 class Location < ActiveRecord::Base
-    has_many :billboards
+    # has_many :billboards
 end
